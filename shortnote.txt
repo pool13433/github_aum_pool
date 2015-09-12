@@ -18,25 +18,25 @@ Introduction Git
 
 
 Basic Command Git
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Command line
+git init
+	-> git init
+git add
+	-> git add <filename>
+	-> git add . <add all file>
+git commit
+	-> git commit -m "Edit Topic line 1 to line 80"
+git push
+	-> git push gitnote master
+git pull
+	-> git pull gitnote master
+git status
+	-> git status
+git log 	
+	-> git log 
+	-> git log --oneline
+	-> git log --oneline --decorate
+	-> git log --oneline --decorate --graph
 Local GIT
 
 
