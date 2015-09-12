@@ -6,18 +6,8 @@ Introduction Git
 	- คุยเรื่อง Trunk, Branch ,Mearg Code
 	- คุยเรื่อง Commit Message
 
-
-
-
-
-
-
-
-
-
-
-
 Basic Command Git
+
 Command line
 git init
 	-> git init
@@ -37,41 +27,13 @@ git log
 	-> git log --oneline
 	-> git log --oneline --decorate
 	-> git log --oneline --decorate --graph
+
 Local GIT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	- git init เพื่อ สร้าง Reposity
+	- ลองใช้คำสั่ง git status, git log , git add , git commit
+	- 
 
 Remote GIT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
