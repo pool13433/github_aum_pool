@@ -5,18 +5,8 @@ Introduction Git
 	- วางโครงสร้าง Folder
 	- คุยเรื่อง Trunk, Branch ,Mearg Code
 	- คุยเรื่อง Commit Message
-
-
-
-
-
-
-
-
-
-
-
 Basic Command Git
+
 Command line
 git init
 	-> git init
@@ -52,9 +42,12 @@ Remote GIT
 		-> git reset HEAD <file>
 Issue Tracking
 
+Local GIT
+	- git init เพื่อ สร้าง Reposity
+	- ลองใช้คำสั่ง git status, git log , git add , git commit
+	- 
 
-
-
+Remote GIT
 
 
 Example use Git In Project
