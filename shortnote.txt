@@ -1,10 +1,10 @@
 Introduction Git
-
-
-
-
-
-
+- git เกิดจาก Project linux 
+- ไม่ควรเก็บแค่เพียง Source Code เก็บพวก Configuration, Database Structure
+- การเริ่มสร้าง Project ที่ดี
+	- วางโครงสร้าง Folder
+	- คุยเรื่อง Trunk, Branch ,Mearg Code
+	- คุยเรื่อง Commit Message
 
 
 
