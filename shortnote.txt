@@ -16,7 +16,6 @@ Introduction Git
 
 
 
-
 Basic Command Git
 Command line
 git init
@@ -44,37 +43,45 @@ Local GIT
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Remote GIT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	- เอา repository Github หรือ [GITLAB] ลงมา
+		-> git remote add origin git@github.com:pool13433/day-11.git
+		-> git push origin master <เอาขึ้น GITHUB>
+		-> git pull origin master <เอาลงมาจาก GITHUB>
+		-> git reset HEAD <file>
 Issue Tracking
+
+
+
+
+
+
+Example use Git In Project
+	Basic Install
+	https://git-scm.com/
+	Local Git
+	-> Git[เว้นวรรค]คำสั่ง[เว้นวรรค]ค่าออฟชั่นเสริม
+	เริ่มคำสั่ง
+	-> Git init หรือ git init [folder_name]
+	ls  -al เพื่อดู file
+	-> git status เพื่อดูสถานะของ git
+	git config –l
+	-> git config --global user.name “poolsawat”
+	-> git config --global user.email “poolsawat@gmail.com”
+
+	สร้างไฟล์ เพื่อทดสอบ
+	-> git add <file>ชื่อไฟล์ ที่เราต้องการเอาใส่เข้าไป
+	-> 	git status
+	-> git rm --cached <file>
+	-> git commit -m “message”
+	-> git log เพื่อตรวจสอบการ ประวัติการใช้งาน
+แก้ไขไฟล์ แล้ว save
+	-> git diff
+	-> git checkout -- <file>
+	-> git diff –cached เพื่อดูการเปรียนแปลงไฟล์ หลังจาก add file เรียบร้อยแล้ว
+	สร้างไฟล์ .gitignore เพื่อดักไฟล์ที่ไม่ต้องการเพื่อไม่ให้มัน ติดไปในการ add file 
+	•	หมายเหตุ กรณีไฟล์ที่เคย add เข้าไปแล้วจะไม่สารถ ignore file ได้ต้อง git rm –cached <file> ลบทิ้งก่อน
+	Public git By github เพื่อ generate key
+	Ssh-keygen –t rsa –C poolsawatapin@gmail.com
+	Ssh –T git@github.com
